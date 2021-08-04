@@ -2,6 +2,7 @@ import Card from './components/Card';
 import Header from './components/Header';
 import Drawer from './components/Drawer';
 
+
 const arr = [
   {
     title: 'Мужские кроссовки Nike Blazer Mid Suede',
@@ -46,6 +47,7 @@ function App() {
               title={obj.title}
               price={obj.price}
               imageUrl={obj.imageUrl}
+              onClick={() => console.log(obj)}
             />
           ))}
         </div>
