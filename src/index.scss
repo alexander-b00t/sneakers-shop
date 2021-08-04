@@ -1,18 +1,18 @@
 body {
   margin: 0;
-  font-family: "Inter", system-ui;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e7f6ff;
 }
 
 * {
-  font-family: 'Inter', system-ui;
+  font-family: 'Inter', sans-serif;
 }
 
 .wrapper {
   background: #ffffff;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
   border-radius: 20px;
   max-width: 1080px;
   margin: 50px auto;
@@ -20,6 +20,7 @@ body {
 
 header {
   border-bottom: 1px solid #eaeaea;
+
   img {
     margin-right: 15px;
   }
@@ -42,10 +43,10 @@ header {
   width: 220px;
   border-radius: 40px;
   margin-right: 30px;
-  transition: box-shadow 0.2s ease-in-out, transform  0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
     transform: translateY(-5px);
   }
 
@@ -124,7 +125,7 @@ header {
     margin-bottom: 40px;
   }
 }
-  
+
 .cartTotalBlock {
   ul {
     display: block;
@@ -145,6 +146,7 @@ header {
       }
     }
   }
+
   .greenButton {
     position: relative;
 
@@ -177,6 +179,7 @@ header {
   &:hover {
     background: lighten(#9dd558, 5%);
   }
+
   &:active {
     background: darken(#9dd558, 5%);
   }
@@ -187,6 +190,7 @@ header {
   border-radius: 20px;
   overflow: hidden;
   padding: 20px;
+
   .cartItemImg {
     height: 70px;
     width: 70px;
@@ -195,6 +199,7 @@ header {
     background-repeat: no-repeat;
     margin-right: 20px;
   }
+
   p {
     font-size: 15px;
     margin: 0;
@@ -204,7 +209,7 @@ header {
     font-size: 14px;
   }
 
-  .removeBtn{
+  .removeBtn {
     opacity: 0.5;
     cursor: pointer;
     transition: opacity 0.2s ease-in-out;
